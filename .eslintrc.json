@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "comma-dangle": [1, "never"],
+    "max-len": 0,
+    "no-restricted-syntax": [
+      "error",
+      "LabeledStatement",
+      "WithStatement"
+    ],
+    "react/jsx-filename-extension": 0,
+    "import/extensions": 0
+  },
+  "env": {
+    "browser": true
+  }
+}
