@@ -5,7 +5,7 @@ exports[`USStateMap renders as expected matches snapsot 1`] = `
   onClick={[Function]}
 >
   <svg
-    className="state-map"
+    className="us-state-map"
     height="593"
     viewBox="0 0 959 593"
     width="959"
