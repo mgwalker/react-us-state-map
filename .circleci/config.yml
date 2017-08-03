@@ -20,7 +20,8 @@ jobs:
           keys:
           - v1-dependencies-{{ checksum "package.json" }}
 
-      - run: yarn install
+      - run: npm install npm@5
+      - run: npm install
 
       - save_cache:
           paths:
