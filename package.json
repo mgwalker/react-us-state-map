@@ -1,6 +1,6 @@
 {
   "name": "react-us-state-map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component that draws the US States + DC and offers a click event",
   "repository": {
     "type": "git",
