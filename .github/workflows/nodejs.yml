@@ -29,6 +29,7 @@ jobs:
     container: node:12
 
     needs: test
+    if: github.ref == 'master'
 
     env:
       NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
@@ -36,5 +37,4 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: publish
-      if: github.ref == 'master'
       run: npm publish --access public
