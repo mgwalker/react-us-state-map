@@ -77,7 +77,7 @@ export default class USStateMap extends React.Component {
 }
 
 USStateMap.propTypes = {
-  onClick: PropTypes.func.isRequired
+  onClick: PropTypes.func
 };
 
 USStateMap.defaultProps = {
